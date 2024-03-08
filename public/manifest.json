@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Epitech intranet overview",
+  "version": "1.0",
+  "description": "Displays an overview of the epitech intranet",
+
+  "permissions": [
+    "menus",
+    "cookies",
+    "https://intra.epitech.eu/*",
+    "tabs"
+  ],
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "icons": {
+    "48": "icon48.png",
+    "96": "icon96.png"
+  }
+}
